@@ -1,0 +1,26 @@
+@bg-image-url: url('/kongmingdeng.jpg');
+@close-music-url: url('/close.png');
+@music-url: url('/music-icon.png');
+.home {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    height: 100%;
+    width: 100%;
+    background: @bg-image-url no-repeat center center !important;
+    // background: linear-gradient(#6ce0a4a8, #6ce0a43d 28%) !important;
+    background-size: cover !important;
+}
+
+.ant-float-btn-body-close{
+  background: @close-music-url no-repeat center center !important;
+}
+
+.ant-float-btn-body {
+  background: @music-url no-repeat center center !important;
+}
